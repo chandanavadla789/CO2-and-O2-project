@@ -1,0 +1,32 @@
+int SmokeA0=A0;
+int buzzer =11;
+float Sensorvalue;
+
+
+void setup() {
+  pinMode(buzzer,OUTPUT);
+  pinMode(SmokeA0,INPUT);
+  Serial.begin(9600);
+  Serial.println("Gas sensor warning");
+  delay(2000);
+  noTone(buzzer);
+
+}
+
+void loop() {
+  Sensorvalue=analogRead(SmokeA0);
+  Serial.print("sensor value");
+  Serial.print(Sensorvalue);
+  if (Sensorvalue>200)
+
+  {
+    Serial.print("smoke detected");
+    tone(buzzer,1000,200 );
+  }
+  else{
+    noTone(buzzer); 
+
+  }
+  Serial.println(" ");
+  delay(200);
+}
