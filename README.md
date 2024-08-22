@@ -49,5 +49,12 @@ According to problem when certain type of data identified from the gas then , wh
 
 
 
+![image](https://github.com/user-attachments/assets/c1a1421f-8101-4ab7-b065-aa505e96dc81)
+
+
+
+
+
+
 
 
