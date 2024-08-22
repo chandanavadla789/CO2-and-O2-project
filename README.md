@@ -43,6 +43,11 @@ According to problem when certain type of data identified from the gas then , wh
 • So, this technology enhances the productivity of cars and increase in technology basis for the safety of human beings.
 
 
+![co2 image](https://github.com/user-attachments/assets/91f6d0f9-3e18-45e2-b2bb-04a828d5d515)
+
+
+
+
 
 
 
